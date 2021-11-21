@@ -12,6 +12,7 @@
 		8E67B1EF27497296003B7032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1EE27497296003B7032 /* Assets.xcassets */; };
 		8E67B1F227497296003B7032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1F127497296003B7032 /* Preview Assets.xcassets */; };
 		8E67B1FD2749CAEA003B7032 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1FC2749CAEA003B7032 /* Pacifico-Regular.ttf */; };
+		8E67B2002749E649003B7032 /* Screen Shot 2021-11-20 at 9.28.15 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1FF2749E648003B7032 /* Screen Shot 2021-11-20 at 9.28.15 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8E67B1F127497296003B7032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E67B1FB27498AAD003B7032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E67B1FC2749CAEA003B7032 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		8E67B1FF2749E648003B7032 /* Screen Shot 2021-11-20 at 9.28.15 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-11-20 at 9.28.15 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		8E67B1DE27497294003B7032 = {
 			isa = PBXGroup;
 			children = (
+				8E67B1FF2749E648003B7032 /* Screen Shot 2021-11-20 at 9.28.15 PM.png */,
 				8E67B1F82749888A003B7032 /* fonts */,
 				8E67B1E927497294003B7032 /* PersonalApp */,
 				8E67B1E827497294003B7032 /* Products */,
@@ -143,6 +146,7 @@
 				8E67B1FD2749CAEA003B7032 /* Pacifico-Regular.ttf in Resources */,
 				8E67B1F227497296003B7032 /* Preview Assets.xcassets in Resources */,
 				8E67B1EF27497296003B7032 /* Assets.xcassets in Resources */,
+				8E67B2002749E649003B7032 /* Screen Shot 2021-11-20 at 9.28.15 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
