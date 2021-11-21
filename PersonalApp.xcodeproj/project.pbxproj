@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E67B1EB27497294003B7032 /* IAmRichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B1EA27497294003B7032 /* IAmRichApp.swift */; };
+		8E67B1EB27497294003B7032 /* PesonalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B1EA27497294003B7032 /* PesonalAppApp.swift */; };
 		8E67B1ED27497294003B7032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B1EC27497294003B7032 /* ContentView.swift */; };
 		8E67B1EF27497296003B7032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1EE27497296003B7032 /* Assets.xcassets */; };
 		8E67B1F227497296003B7032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1F127497296003B7032 /* Preview Assets.xcassets */; };
+		8E67B1FD2749CAEA003B7032 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B1FC2749CAEA003B7032 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E67B1E727497294003B7032 /* IAmRich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmRich.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E67B1EA27497294003B7032 /* IAmRichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmRichApp.swift; sourceTree = "<group>"; };
+		8E67B1E727497294003B7032 /* PersonalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E67B1EA27497294003B7032 /* PesonalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesonalAppApp.swift; sourceTree = "<group>"; };
 		8E67B1EC27497294003B7032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E67B1EE27497296003B7032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E67B1F127497296003B7032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E67B1FB27498AAD003B7032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E67B1FC2749CAEA003B7032 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +38,8 @@
 		8E67B1DE27497294003B7032 = {
 			isa = PBXGroup;
 			children = (
-				8E67B1E927497294003B7032 /* IAmRich */,
+				8E67B1F82749888A003B7032 /* fonts */,
+				8E67B1E927497294003B7032 /* PersonalApp */,
 				8E67B1E827497294003B7032 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,21 @@
 		8E67B1E827497294003B7032 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E67B1E727497294003B7032 /* IAmRich.app */,
+				8E67B1E727497294003B7032 /* PersonalApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E67B1E927497294003B7032 /* IAmRich */ = {
+		8E67B1E927497294003B7032 /* PersonalApp */ = {
 			isa = PBXGroup;
 			children = (
-				8E67B1EA27497294003B7032 /* IAmRichApp.swift */,
+				8E67B1FB27498AAD003B7032 /* Info.plist */,
+				8E67B1EA27497294003B7032 /* PesonalAppApp.swift */,
 				8E67B1EC27497294003B7032 /* ContentView.swift */,
 				8E67B1EE27497296003B7032 /* Assets.xcassets */,
 				8E67B1F027497296003B7032 /* Preview Content */,
 			);
-			path = IAmRich;
+			path = PersonalApp;
 			sourceTree = "<group>";
 		};
 		8E67B1F027497296003B7032 /* Preview Content */ = {
@@ -67,12 +72,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8E67B1F82749888A003B7032 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E67B1FC2749CAEA003B7032 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E67B1E627497294003B7032 /* IAmRich */ = {
+		8E67B1E627497294003B7032 /* PersonalApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E67B1F527497296003B7032 /* Build configuration list for PBXNativeTarget "IAmRich" */;
+			buildConfigurationList = 8E67B1F527497296003B7032 /* Build configuration list for PBXNativeTarget "PersonalApp" */;
 			buildPhases = (
 				8E67B1E327497294003B7032 /* Sources */,
 				8E67B1E427497294003B7032 /* Frameworks */,
@@ -82,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = IAmRich;
+			name = PersonalApp;
 			productName = IAmRich;
-			productReference = 8E67B1E727497294003B7032 /* IAmRich.app */;
+			productReference = 8E67B1E727497294003B7032 /* PersonalApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E67B1E227497294003B7032 /* Build configuration list for PBXProject "IAmRich" */;
+			buildConfigurationList = 8E67B1E227497294003B7032 /* Build configuration list for PBXProject "PersonalApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +124,13 @@
 				Base,
 			);
 			mainGroup = 8E67B1DE27497294003B7032;
+			packageReferences = (
+			);
 			productRefGroup = 8E67B1E827497294003B7032 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E67B1E627497294003B7032 /* IAmRich */,
+				8E67B1E627497294003B7032 /* PersonalApp */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E67B1FD2749CAEA003B7032 /* Pacifico-Regular.ttf in Resources */,
 				8E67B1F227497296003B7032 /* Preview Assets.xcassets in Resources */,
 				8E67B1EF27497296003B7032 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E67B1ED27497294003B7032 /* ContentView.swift in Sources */,
-				8E67B1EB27497294003B7032 /* IAmRichApp.swift in Sources */,
+				8E67B1EB27497294003B7032 /* PesonalAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +284,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IAmRich/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalApp/Preview Content\"";
 				DEVELOPMENT_TEAM = SGA9G475QA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonalApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = School.com.IAmRich;
+				PRODUCT_BUNDLE_IDENTIFIER = School.com.PersonalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,10 +314,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IAmRich/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalApp/Preview Content\"";
 				DEVELOPMENT_TEAM = SGA9G475QA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonalApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = School.com.IAmRich;
+				PRODUCT_BUNDLE_IDENTIFIER = School.com.PersonalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E67B1E227497294003B7032 /* Build configuration list for PBXProject "IAmRich" */ = {
+		8E67B1E227497294003B7032 /* Build configuration list for PBXProject "PersonalApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E67B1F327497296003B7032 /* Debug */,
@@ -331,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E67B1F527497296003B7032 /* Build configuration list for PBXNativeTarget "IAmRich" */ = {
+		8E67B1F527497296003B7032 /* Build configuration list for PBXNativeTarget "PersonalApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E67B1F627497296003B7032 /* Debug */,
