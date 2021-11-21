@@ -1,8 +1,8 @@
 # SwiftUI-tutorial
 
-## Screenshots:
+## Screenshot:
 <p align="row">
-<img src= "" width="300" >
+<img src= "https://github.com/abdel-elsayed/SwiftUI-tutorial/blob/main/Screen%20Shot%202021-11-20%20at%209.28.15%20PM.png" width="300" >
 
 ## Goal
 
