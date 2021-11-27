@@ -27,11 +27,12 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .font(.title2)
                     
-                    Divider()
+                    cardView().padding(.vertical, 40)
                     
                     CustomLink(text: "GitHub", link: "https://github.com/abdel-elsayed")
                     CustomLink(text: "LinkedIn",link: "https://www.linkedin.com/in/abdel-elsayed")
                     CustomLink(text: "Personal Website",link: "https://www.abdelrahman-elsayed.netlify.app")
+                    
                 }
             }
         }
@@ -49,10 +50,43 @@ struct ContentView: View {
                     .padding()
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color(UIColor(red: 0.95, green: 0.55, blue: 0.37, alpha: 1.00)), lineWidth: 3)
+                            .stroke(Color("PrimaryOrange"), lineWidth: 3)
                     )
             })
             
+        }
+    }
+}
+
+
+struct cardView: View {
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color(UIColor(red: 0.90, green: 0.90, blue: 0.90, alpha: 1.00)))
+                .frame(width: 300, height: 120)
+                .shadow(color: Color("PrimaryOrange"), radius: 12, x: 1, y: 1)
+            HStack {
+                VStack(alignment: .leading) {
+                    HStack{
+                        Image(systemName: "location.circle.fill").foregroundColor(Color("PrimaryOrange"))
+                        
+                        Text("New York City, NY.").font(.callout)
+                    }.padding(.bottom, 10)
+                    HStack{
+                        Image(systemName: "briefcase.fill").foregroundColor(Color("PrimaryOrange"))
+                        
+                        Text("ABC Companies.").font(.callout)
+                    }.padding(.bottom , 10)
+                    HStack{Image(systemName: "envelope.circle.fill").foregroundColor(Color("PrimaryOrange"))
+                        
+                        Text("abdel.elsayed@abc.org").font(.callout)
+                    }.padding(.bottom , 10)
+                }
+                Spacer()
+            }.frame(width: 300, height: 120)
+            
+                
         }
     }
 }
